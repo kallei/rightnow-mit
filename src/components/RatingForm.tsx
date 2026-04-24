@@ -25,7 +25,7 @@ export default function RatingForm({ hallId }: Props) {
   if (alreadyRated) {
     return (
       <p className="rounded-2xl bg-gray-100 px-5 py-4 text-center text-sm text-gray-500">
-        You've already rated this hall today. Check back tomorrow!
+        You&apos;ve already rated this hall today. Check back tomorrow!
       </p>
     )
   }
@@ -49,7 +49,7 @@ export default function RatingForm({ hallId }: Props) {
 
   return (
     <form onSubmit={handleSubmit} className="rounded-2xl bg-white px-5 py-5 shadow-sm space-y-4">
-      <p className="font-semibold text-gray-800">Rate tonight's food</p>
+      <p className="font-semibold text-gray-800">Rate tonight&apos;s food</p>
       <StarPicker value={stars} onChange={setStars} />
       <textarea
         className="w-full resize-none rounded-xl border border-gray-200 px-4 py-3 text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-400"

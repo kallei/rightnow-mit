@@ -12,7 +12,7 @@ export default async function Home() {
     <main className="mx-auto max-w-md px-4 pb-12 pt-8">
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-gray-900">RightNow@MIT</h1>
-        <p className="mt-1 text-sm text-gray-500">Tonight's dining hall ratings — last 6 hours</p>
+        <p className="mt-1 text-sm text-gray-500">Tonight&apos;s dining hall ratings — last 6 hours</p>
       </div>
       <div className="space-y-3">
         {HALLS.map((hall) => (
